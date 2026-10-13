@@ -35,6 +35,12 @@ td {
   text-align: center;
 }
 
+/* row-group headings span several rows, so centre them vertically */
+
+th[scope="rowgroup"] {
+  vertical-align: middle;
+}
+
 tr:nth-child(even) td {
   background-color: rgb(250 250 250);
 }
