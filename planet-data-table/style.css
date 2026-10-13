@@ -54,6 +54,9 @@ caption {
   font-weight: bold;
 }
 
+/* black border around the planet-name column, applied through <col> in the colgroup
+   (the HTML also sets the same border with an inline style attribute) */
+
 .column-border {
   border: 2px solid black;
 }
