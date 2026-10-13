@@ -82,6 +82,9 @@ header p {
   margin: 0;
 }
 
+/* the header video sits in the right-hand "video" grid area,
+   next to the intro paragraph */
+
 video {
   grid-area: video;
   width: 100%;
