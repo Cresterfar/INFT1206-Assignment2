@@ -37,12 +37,19 @@ img {
 nav {
   background-color: black;
   padding: 0.5em;
+  /* Scrolls with the content, then sticks to the top of the viewport */
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  /* Links in a row with equal space between them */
+  display: flex;
+  justify-content: space-around;
 }
 
 nav a {

@@ -5,6 +5,10 @@
   Styles for the community college homepage.
 */
 
+/* Web fonts: IBM Plex Serif (body text) and Bevan (headings) */
+
+@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400&display=swap");
+
 /* General setup */
 
 * {
@@ -39,4 +43,39 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* Apply fonts to the page */
+
+html {
+  font-family: "IBM Plex Serif", serif;
+}
+
+h1,
+h2 {
+  font-family: "Bevan", serif;
+}
+
+/* General text styling */
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+section h2 + p {
+  text-indent: 2rem;
+}
+
+p,
+li {
+  line-height: 1.6;
+  letter-spacing: 0.5px;
 }

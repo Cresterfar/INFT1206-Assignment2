@@ -12,3 +12,11 @@ html {
 body {
   font: 1.2em / 1.5 system-ui;
 }
+
+h1 {
+  border-bottom: 10px dotted purple;
+}
+
+h2 {
+  font-style: italic;
+}
