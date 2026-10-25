@@ -2,7 +2,7 @@
   Name: Obinna Iweanoge
   File: style.css
   Date: 25 October 2026
-  Styles for the blog layout page.
+  Layout styles: flexbox nav, sticky nav, floated image, article/aside grid and photo grid.
 */
 
 * {
@@ -74,6 +74,10 @@ nav a {
   list-style: none;
   margin: 0;
   padding: 0;
+  /* Two equal columns with a 5px gap between the images */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
 }
 
 .feature {

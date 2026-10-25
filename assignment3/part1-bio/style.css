@@ -2,7 +2,7 @@
   Name: Obinna Iweanoge
   File: style.css
   Date: 25 October 2026
-  Styles for the biography page.
+  Styles for the biography page: heading, contact list and link rules.
 */
 
 html {
@@ -25,4 +25,9 @@ ul {
   background-color: #eeeeee;
   border: 5px solid purple;
   padding: 20px 20px 20px 40px;
+}
+
+a:hover {
+  color: darkgreen;
+  text-decoration: none;
 }

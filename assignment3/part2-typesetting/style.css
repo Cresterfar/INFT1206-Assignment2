@@ -2,7 +2,7 @@
   Name: Obinna Iweanoge
   File: style.css
   Date: 25 October 2026
-  Styles for the community college homepage.
+  Web fonts, text, link, list and navigation styles for the community college homepage.
 */
 
 /* Web fonts: IBM Plex Serif (body text) and Bevan (headings) */
@@ -121,4 +121,39 @@ ul {
 
 ol {
   list-style-type: lower-roman;
+}
+
+/* Navigation menu styling */
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+nav li a {
+  display: block;
+  width: 100%;
+  font-family: "Bevan", serif;
+  font-size: 1.3rem;
+  line-height: 3.5;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #aa6666;
+}
+
+nav li a:hover,
+nav li a:focus {
+  color: white;
+  background: #aa6666;
+}
+
+nav li a:active {
+  color: white;
+  background: black;
 }
